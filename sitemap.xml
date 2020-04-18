@@ -53,27 +53,12 @@
   </url>
   
   <url>
-    <loc>https://scandari.github.io/blog/tags/hugo/</loc>
-    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/i18n/</loc>
-    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/translation/</loc>
-    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/post/translation/</loc>
-    <lastmod>2019-09-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://scandari.github.io/blog/post/featured-images/</loc>
+    <lastmod>2019-09-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/categories/mia/</loc>
     <lastmod>2019-09-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -89,6 +74,11 @@
   
   <url>
     <loc>https://scandari.github.io/blog/tags/chroma/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/hugo/</loc>
     <lastmod>2018-04-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -110,46 +100,6 @@
   <url>
     <loc>https://scandari.github.io/blog/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/post/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/development/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/go/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/categories/golang/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/templates/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://scandari.github.io/blog/tags/themes/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

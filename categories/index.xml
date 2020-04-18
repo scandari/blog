@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Binario</title>
+    <title>Categories on Home</title>
     <link>https://scandari.github.io/blog/categories/</link>
-    <description>Recent content in Categories on Binario</description>
+    <description>Recent content in Categories on Home</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>it-it</language>
     <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://scandari.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -21,11 +21,11 @@
     </item>
     
     <item>
-      <title>golang</title>
-      <link>https://scandari.github.io/blog/categories/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Mia</title>
+      <link>https://scandari.github.io/blog/categories/mia/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/blog/categories/golang/</guid>
+      <guid>https://scandari.github.io/blog/categories/mia/</guid>
       <description></description>
     </item>
     
