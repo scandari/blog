@@ -1,26 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"><url>
-    <loc>https://scandari.github.io/blog/tags/basic-elements/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/about/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/basic-elements-copia-2/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/basic-elements-copia-3/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/basic-elements-copia/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/basic-elements/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/categories/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/css/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/categories/development/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/html/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/</loc><lastmod>2019-09-24T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/mathjax/</loc><lastmod>2019-09-23T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/mathjax/</loc><lastmod>2019-09-23T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/chroma/</loc><lastmod>2018-04-15T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/hugo/</loc><lastmod>2018-04-15T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/syntax-highlighting/</loc><lastmod>2018-04-15T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/markdown/</loc><lastmod>2018-04-15T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/tags/syntax-highlighting/</loc><lastmod>2018-04-15T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/creating-a-new-theme-copia-2/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/creating-a-new-theme-copia-3/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/creating-a-new-theme-copia/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url><url>
-    <loc>https://scandari.github.io/blog/post/creating-a-new-theme/</loc><lastmod>2014-09-28T00:00:00+00:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/basic-elements/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/about/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/basic-elements-copia-2/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/basic-elements-copia-3/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/basic-elements-copia/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/basic-elements/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/categories/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/css/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/categories/development/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/html/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/mathjax/</loc>
+    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/mathjax/</loc>
+    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/chroma/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/hugo/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/syntax-highlighting/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/markdown/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/tags/syntax-highlighting/</loc>
+    <lastmod>2018-04-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/creating-a-new-theme-copia-2/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/creating-a-new-theme-copia-3/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/creating-a-new-theme-copia/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://scandari.github.io/blog/post/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+  </url>
+  
+</urlset>

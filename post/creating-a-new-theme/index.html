@@ -1,12 +1,68 @@
 <!DOCTYPE html>
-<html lang="it"><meta charset="utf-8"><meta name="generator" content="Hugo 0.69.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="color-scheme" content="light dark">
-<meta name="supported-color-schemes" content="light dark"><title>Creating a New Theme&nbsp;&ndash;&nbsp;Notepadium</title><link rel="stylesheet" href="/blog/css/core.min.0517cd3a6c90efa991a9347ac6ac02a114fe606cdad3dd496f4cbb199cc5fae9525f248ee6febff2d5a961b5b89610f1.css" integrity="sha384-BRfNOmyQ76mRqTR6xqwCoRT&#43;YGza091Jb0y7GZzF&#43;ulSXySO5v6/8tWpYbW4lhDx"><meta name="twitter:card" content="summary" />
-<meta name="twitter:title" content="Creating a New Theme" /><body>
-    <div class="base-body"><section id="header" class="site header">
-    <div class="header wrap"><span class="header left-side"><a class="site home" href="/blog/"><span class="site name">Notepadium</span></a></span>
-        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/blog/categories/"></a><a class="nav item" href="/blog/tags/"></a><a class="nav item" href="/blog/categories/">Categorie</a><a class="nav item" href="/blog/tags/">Tag</a><a class="nav item" href="/blog/about/">About</a></nav></div></span></div><div class="site slogan"><span class="title">Il mio slogan</span></div></section><div id="content"><div class="article-container"><section class="article header">
-    <h1 class="article title">Creating a New Theme</h1><p class="article date">28/09/2014</p></section><article class="article markdown-body"><h2 id="introduction">Introduction</h2>
+<html class="no-js" lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#1b1b1b">
+	<title>Creating a New Theme | Binario</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="stylesheet" href="/blog/css/bundle.css">
+	<link rel="stylesheet" href="/blog/css/themes/dark-blue.css">
+	<link rel="icon" href="/blog/icons/16.png" sizes="16x16" type="image/png">
+	<link rel="icon" href="/blog/icons/32.png" sizes="32x32" type="image/png">
+		
+</head>
+<body>
+	<header class="header">
+	<a class="logo" href="/blog/">Binario</a>
+	
+<nav class="main-nav main-nav--right" role="navigation">
+	<button id="toggle" class="main-nav__btn" aria-label="Menu toggle" aria-expanded="false" tabindex="0">
+		<div class="main-nav__btn-box" tabindex="-1">
+			<svg class="main-nav__icon icon-menu" width="18" height="18" viewBox="0 0 18 18">
+				<path class="icon-menu__burger" d="M18 0v3.6H0V0h18zM0 10.8h18V7.2H0v3.6zM0 18h18v-3.6H0V18z"/>
+				<path class="icon-menu__x" d="M11.55 9L18 15.45 15.45 18 9 11.55 2.55 18 0 15.45 6.45 9 0 2.55 2.55 0 9 6.45 15.45 0 18 2.55 11.55 9z"/>
+			</svg>
+		</div>
+	</button>
+	<ul id="menu" class="main-nav__list">
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/blog/categories/">
+					
+					<span class="main-nav__text">Categorie</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/blog/tags/">
+					
+					<span class="main-nav__text">Tag</span>
+					
+				</a>
+			</li>
+			<li class="main-nav__item">
+				<a class="main-nav__link" href="/blog/about/">
+					
+					<span class="main-nav__text">About</span>
+					
+				</a>
+			</li>
+	</ul>
+</nav>
+</header>
+	<div class="primary">
+	
+	<main class="main">
+		
+		<div class="single block">
+			<article class="entry">
+	<div class="entry__meta meta mb">
+	<time class="entry__meta-published meta-published" datetime="2014-09-28T00:00:00Z">28/09/2014</time>
+	</div>
+				<h1 class="entry__title">Creating a New Theme</h1>
+				<div class="entry__content"><h2 id="introduction">Introduction</h2>
 <p>This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&rsquo;t cover using CSS to style your theme.</p>
 <p>We&rsquo;ll start with creating a new site with a very basic template. Then we&rsquo;ll add in a few pages and posts. With small variations on that, you will be able to create many different types of web sites.</p>
 <p>In this tutorial, commands that you enter will start with the &ldquo;$&rdquo; prompt. The output will follow. Lines that start with &ldquo;#&rdquo; are comments that I&rsquo;ve added to explain a point. When I show updates to a file, the &ldquo;:wq&rdquo; on the last line means to save the file.</p>
@@ -812,12 +868,22 @@ $ vi themes/zafta/layouts/_default/single.html
 </code></pre><p>Note that we removed the date logic from the default template and put it in the post template. Generate the web site and verify the results. Posts have dates and the about page doesn&rsquo;t.</p>
 <h3 id="dont-repeat-yourself">Don&rsquo;t Repeat Yourself</h3>
 <p>DRY is a good design goal and Hugo does a great job supporting it. Part of the art of a good template is knowing when to add a new template and when to update an existing one. While you&rsquo;re figuring that out, accept that you&rsquo;ll be doing some refactoring. Hugo makes that easy and fast, so it&rsquo;s okay to delay splitting up a template.</p>
-</article></div><section class="article navigation"><p><a class="link" href="/blog/post/creating-a-new-theme-copia/"><span class="li">&larr;</span>Creating a New Theme</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
-    <p class="copyright">©2020 Notepadium.</p>
-    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
-        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
-        target="_blank">Notepadium</a></p>
-</div></section></div>
-</body>
+</div>
+				
+			</article>
+		</div>
+	</main>
+	
+	
 
+
+
+	
+
+	</div>
+	<footer class="footer">
+	<div class="footer__copyright">© 2020 Binario. <span class="footer__copyright-credits">Powered by <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/vimux/binario" rel="nofollow noopener" target="_blank">Binario</a> theme.</span></div>
+</footer>
+<script src="/blog/js/menu.js"></script>
+</body>
 </html>
