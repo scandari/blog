@@ -1,41 +1,75 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>HTML on A minimal Hugo website</title>
-    <link>https://scandari.github.io/blog/tags/html/</link>
-    <description>Recent content in HTML on A minimal Hugo website</description>
+    <title>HTML on Notepadium</title>
+    <link>/blog/tags/html/</link>
+    <description>Recent content in HTML on Notepadium</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>it</language>
+    <copyright>©2020 Notepadium.</copyright>
     <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://scandari.github.io/blog/tags/html/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic HTML Elements</title>
-      <link>https://scandari.github.io/blog/about/</link>
+      <link>/blog/about/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/blog/about/</guid>
+      <guid>/blog/about/</guid>
       <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
+      
     </item>
     
     <item>
       <title>Basic HTML Elements</title>
-      <link>https://scandari.github.io/blog/post/2019/09/24/basic-html-elements/</link>
+      <link>/blog/post/basic-elements-copia-2/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/blog/post/2019/09/24/basic-html-elements/</guid>
+      <guid>/blog/post/basic-elements-copia-2/</guid>
       <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Basic HTML Elements</title>
+      <link>/blog/post/basic-elements-copia-3/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/post/basic-elements-copia-3/</guid>
+      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Basic HTML Elements</title>
+      <link>/blog/post/basic-elements-copia/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/post/basic-elements-copia/</guid>
+      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Basic HTML Elements</title>
+      <link>/blog/post/basic-elements/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/post/basic-elements/</guid>
+      <description>&lt;p&gt;The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.&lt;/p&gt;</description>
+      
     </item>
     
     <item>
       <title>Hugo Syntax Highlighting</title>
-      <link>https://scandari.github.io/blog/post/2018/04/15/hugo-syntax-highlighting/</link>
+      <link>/blog/post/syntax-highlighting/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/blog/post/2018/04/15/hugo-syntax-highlighting/</guid>
+      <guid>/blog/post/syntax-highlighting/</guid>
       <description>&lt;p&gt;You can have code snippets highlighted so that they are easier to read on your site using Chroma, Hugo&amp;rsquo;s default syntax highlighter. It is built in Go lang and is really, really fast – and for the most important parts compatible with Pygments. Chroma takes source code and other structured text and converts it into syntax highlighted HTML, ANSI-coloured text, etc.&lt;/p&gt;</description>
+      
     </item>
     
   </channel>

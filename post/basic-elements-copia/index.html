@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="it"><meta charset="utf-8"><meta name="generator" content="Hugo 0.69.0" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>Basic HTML Elements&nbsp;&ndash;&nbsp;Notepadium</title><link rel="stylesheet" href="/blog/css/core.min.0517cd3a6c90efa991a9347ac6ac02a114fe606cdad3dd496f4cbb199cc5fae9525f248ee6febff2d5a961b5b89610f1.css" integrity="sha384-BRfNOmyQ76mRqTR6xqwCoRT&#43;YGza091Jb0y7GZzF&#43;ulSXySO5v6/8tWpYbW4lhDx"><meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Basic HTML Elements" /><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/blog/"><span class="site name">Notepadium</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/blog/categories/"></a><a class="nav item" href="/blog/tags/"></a><a class="nav item" href="/blog/categories/">Categorie</a><a class="nav item" href="/blog/tags/">Tag</a><a class="nav item" href="/blog/about/">About</a></nav></div></span></div><div class="site slogan"><span class="title">Il mio slogan</span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">Basic HTML Elements</h1><p class="article date">24/09/2019</p></section><article class="article markdown-body"><p>The main purpose of this article is to make sure that all basic HTML Elements are decorated with CSS so as to not miss any possible elements when creating new themes for Hugo.</p>
+<h2 id="headings">Headings</h2>
+<p>Let&rsquo;s start with all possible headings. The HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.</p>
+<h1 id="heading-1">Heading 1</h1>
+<h2 id="heading-2">Heading 2</h2>
+<h3 id="heading-3">Heading 3</h3>
+<h4 id="heading-4">Heading 4</h4>
+<h5 id="heading-5">Heading 5</h5>
+<h6 id="heading-6">Heading 6</h6>
+<hr>
+<h2 id="paragraph">Paragraph</h2>
+<p>According to the <a href="https://www.w3.org/TR/html5/dom.html#elements"target="_blank">HTML5 specification</a> by <a href="https://www.w3.org/"target="_blank">W3C</a>, <strong>HTML documents consist of a tree of elements and text</strong>. Each element is denoted in the source by a <a href="https://www.w3.org/TR/html5/syntax.html#syntax-start-tags"target="_blank">start tag</a>, such as <code>&lt;body&gt;</code>, and an <a href="https://www.w3.org/TR/html5/syntax.html#syntax-end-tags"target="_blank">end tag</a>, such as <code>&lt;/body&gt;</code>. (<em>Certain start tags and end tags can in certain cases be omitted and are implied by other tags.</em>)</p>
+<p>Elements can have attributes, which control how the elements work. For example, hyperlink are formed using the <code>a</code> element and its <code>href</code> attribute.</p>
+<h2 id="list-types">List Types</h2>
+<h3 id="ordered-list">Ordered List</h3>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="unordered-list">Unordered List</h3>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h3 id="nested-list">Nested list</h3>
+<ul>
+  <li>First item</li>
+  <li>Second item
+    <ul>
+      <li>Second item First subitem</li>
+      <li>Second item second subitem
+        <ul>
+          <li>Second item Second subitem First sub-subitem</li>
+          <li>Second item Second subitem Second sub-subitem</li>
+          <li>Second item Second subitem Third sub-subitem</li>
+        </ul>
+      </li>
+      <li>Second item Third subitem
+        <ol>
+          <li>Second item Third subitem First sub-subitem</li>
+          <li>Second item Third subitem Second sub-subitem</li>
+          <li>Second item Third subitem Third sub-subitem</li>
+        </ol>
+    </ul>
+  </li>
+  <li>Third item</li>
+</ul>
+<h3 id="definition-list">Definition List</h3>
+<p>HTML also supports definition lists.</p>
+<dl>
+  <dt>Blanco tequila</dt>
+  <dd>The purest form of the blue agave spirit...</dd>
+  <dt>Reposado tequila</dt>
+  <dd>Typically aged in wooden barrels for between two and eleven months...</dd>
+</dl>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<blockquote>
+<p>Quoted text.
+This line is part of the same quote.
+Also you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
+</blockquote>
+<p>Blockquote with a citation.</p>
+<blockquote>
+  <p>My goal wasn't to make a ton of money. It was to build good computers. I only started the company when I realized I could be an engineer forever.</p>
+  <footer>— <cite>Steve Wozniak</cite></footer>
+</blockquote>
+<p>According to Mozilla&rsquo;s website, <q cite="https://www.mozilla.org/en-US/about/history/details/">Firefox 1.0 was released in 2004 and became a big success.</q></p>
+<h2 id="tables">Tables</h2>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports them.</p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Make</th>
+<th>Model</th>
+<th>Year</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Honda</td>
+<td>Accord</td>
+<td>2009</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Toyota</td>
+<td>Camry</td>
+<td>2012</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hyundai</td>
+<td>Elantra</td>
+<td>2010</td>
+</tr>
+</tbody>
+</table>
+<p>Colons can be used to align columns.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Tables</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">align: left</td>
+<td align="center">align: center</td>
+<td align="right">align: right</td>
+</tr>
+<tr>
+<td align="left">align: left</td>
+<td align="center">align: center</td>
+<td align="right">align: right</td>
+</tr>
+<tr>
+<td align="left">align: left</td>
+<td align="center">align: center</td>
+<td align="right">align: right</td>
+</tr>
+</tbody>
+</table>
+<p>You can also use inline Markdown.</p>
+<table>
+<thead>
+<tr>
+<th>Inline</th>
+<th>Markdown</th>
+<th>In</th>
+<th>Table</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><del>strikethrough</del></td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code">Code</h2>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div><h2 id="highlighted-code">Highlighted Code</h2>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;UTF-8&#34;</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
+<h2 id="other-stuff--abbr-sub-sup-kbd-etc">Other stuff — abbr, sub, sup, kbd, etc.</h2>
+<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
+<p>H<sub>2</sub>O</p>
+<p>C<sub>6</sub>H<sub>12</sub>O<sub>6</sub></p>
+<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
+<p>Press <kbd>X</kbd> to win. Or press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>F</kbd></kbd> to show FPS counter.</p>
+<p><mark>As a unit of information in information theory, the bit has alternatively been called a shannon</mark>, named after Claude Shannon, the founder of field of information theory.</p></article><section class="article labels"><a class="category" href=/blog/categories/development/>Development</a><a class="tag" href=/blog/tags/html/>HTML</a><a class="tag" href=/blog/tags/css/>CSS</a><a class="tag" href=/blog/tags/basic-elements/>Basic Elements</a></section></div><section class="article navigation"><p><a class="link" href="/blog/post/basic-elements-copia-3/"><span class="li">&larr;</span>Basic HTML Elements</a></p><p><a class="link" href="/blog/post/basic-elements/"><span class="li">&rarr;</span>Basic HTML Elements</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">©2020 Notepadium.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section></div>
+</body>
+
+</html>

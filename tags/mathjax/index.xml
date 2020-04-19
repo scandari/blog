@@ -1,23 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MathJax on A minimal Hugo website</title>
-    <link>https://scandari.github.io/blog/tags/mathjax/</link>
-    <description>Recent content in MathJax on A minimal Hugo website</description>
+    <title>MathJax on Notepadium</title>
+    <link>/blog/tags/mathjax/</link>
+    <description>Recent content in MathJax on Notepadium</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>it</language>
+    <copyright>©2020 Notepadium.</copyright>
     <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://scandari.github.io/blog/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/blog/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MathJax</title>
-      <link>https://scandari.github.io/blog/post/2019/09/23/mathjax/</link>
+      <link>/blog/post/mathjax/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/blog/post/2019/09/23/mathjax/</guid>
+      <guid>/blog/post/mathjax/</guid>
       <description>&lt;p&gt;MathJax JavaScript library allows you to include mathematics in your web pages for viewing in any modern browser.&lt;/p&gt;</description>
+      
     </item>
     
   </channel>
