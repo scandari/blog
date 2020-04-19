@@ -2,84 +2,84 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A minimal Hugo website</title>
-    <link>https://scandari.github.io/tags/</link>
+    <link>/blog/tags/</link>
     <description>Recent content in Tags on A minimal Hugo website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://scandari.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Basic Elements</title>
-      <link>https://scandari.github.io/tags/basic-elements/</link>
+      <link>/blog/tags/basic-elements/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/basic-elements/</guid>
+      <guid>/blog/tags/basic-elements/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS</title>
-      <link>https://scandari.github.io/tags/css/</link>
+      <link>/blog/tags/css/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/css/</guid>
+      <guid>/blog/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://scandari.github.io/tags/html/</link>
+      <link>/blog/tags/html/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/html/</guid>
+      <guid>/blog/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MathJax</title>
-      <link>https://scandari.github.io/tags/mathjax/</link>
+      <link>/blog/tags/mathjax/</link>
       <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/mathjax/</guid>
+      <guid>/blog/tags/mathjax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Chroma</title>
-      <link>https://scandari.github.io/tags/chroma/</link>
+      <link>/blog/tags/chroma/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/chroma/</guid>
+      <guid>/blog/tags/chroma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://scandari.github.io/tags/hugo/</link>
+      <link>/blog/tags/hugo/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/hugo/</guid>
+      <guid>/blog/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://scandari.github.io/tags/markdown/</link>
+      <link>/blog/tags/markdown/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/markdown/</guid>
+      <guid>/blog/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>https://scandari.github.io/tags/syntax-highlighting/</link>
+      <link>/blog/tags/syntax-highlighting/</link>
       <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://scandari.github.io/tags/syntax-highlighting/</guid>
+      <guid>/blog/tags/syntax-highlighting/</guid>
       <description></description>
     </item>
     

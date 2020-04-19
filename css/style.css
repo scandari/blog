@@ -14,21 +14,12 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
-
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 hr {
   border-style: dashed;
   color: #ddd;
-}
-
-.menu, .srticle-meta, footer { text-align: center; }
-.title { font-size: 1.1em; }
-footer a { text-decoration: none; }
-hr {
-  border-style: dashed;
-  color: #eee;
 }
 
 /* code */
